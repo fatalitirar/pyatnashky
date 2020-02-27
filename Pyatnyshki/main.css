@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Montserrat";
+}
+
+h1, h2, h3, h4, p, span {
+  margin: 0;
+  padding: 0;
+}
+
+#phool {
+  width: 600px;
+  height: 800px;
+  background: linear-gradient(0deg, #235155 0%, #54dae7 34%);
+  margin-left: 500px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#incauter {
+  width: 100%;
+  height: 125px;
+  background-color: #54dae7;
+  border-bottom: white solid 1px;
+}
+#incauter h1 {
+  font-size: 72pt;
+  margin-left: 6%;
+  display: inline-flex;
+}
+.top_items {
+  border: white 1px solid;
+  display: inline-block;
+}
+.top_items :nth-child(1) {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+}
+.top_items :nth-child(2) {
+  background-color: white;
+  align-self: center;
+}
+
+#buttons {
+  display: inline-block;
+  margin-left: 5%;
+  width: 180px;
+}
+
+#start {
+  width: 170px;
+  height: 40px;
+}
+#start p {
+  font-size: 22pt;
+}
+
+#stop, #mix {
+  border-bottom: white 1px solid;
+}
+
+.do_butn {
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+  width: 83px;
+  height: 25px;
+  margin-top: 1px;
+  display: inline-flex;
+  text-align: center;
+  text-transform: uppercase;
+}
+.do_butn p {
+  font-size: 12pt;
+  margin-left: 20px;
+  opacity: 0.2;
+}
+.do_butn :hover {
+  opacity: 1;
+}
+
+#counter :nth-child(2) {
+  padding-left: 43%;
+}
+
+#clock :nth-child(2) {
+  padding-left: 30%;
+}
+
+.pyatnashik {
+  width: 135px;
+  height: 135px;
+  display: inline-flex;
+  position: absolute;
+  transition: 0.2s;
+  font-size: 22pt;
+  border: #235155 2px solid;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.pyatnashik p {
+  margin-left: 42%;
+  margin-top: 35%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#work_phool {
+  margin-top: 15px;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  width: 98%;
+  margin-left: 1%;
+  border-radius: 5px;
+  height: 580px;
+}
